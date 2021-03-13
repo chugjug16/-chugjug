@@ -198,7 +198,7 @@ io.on('connection', (socket) => {
         // //[//console.log(socket)
  //        // //[//console.log(socket.nickname)
         socket.ishost = socket.id;
-        random_num = Math.floor(Math.random() * 860) + 1  
+        random_num = Math.floor(Math.random() * 965) + 1  
          for (socketID in io.nsps['/'].adapter.rooms[room_obj[0]].sockets) {
             const nickname = io.nsps['/'].connected[socketID].nickname;
             // io.nsps['/'].connected[socketID].nickname
